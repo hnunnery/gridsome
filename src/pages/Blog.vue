@@ -1,0 +1,91 @@
+<template>
+  <Layout>
+    <v-container fluid class="pa-0">
+      <v-row class="justify-center pa-0">
+        <v-col
+          cols="12"
+          lg="6"
+          class="pa-sm-4 pa-0"
+          v-for="post in posts"
+          :key="post.node.id"
+          @click="onClick(post)"
+          style="cursor: pointer; max-width: 1000px;"
+        >
+          <v-card flat>
+            <v-row class="justify-space-around align-center">
+              <v-col>
+                <v-col class="px-2">
+                  <v-img
+                    v-if="post.node.featuredImage != null"
+                    :src="post.node.featuredImage"
+                    alt="blog"
+                    aspect-ratio="1.7778"
+                    lazy-src
+                    style="width: 97%;"
+                    class="mx-auto"
+                  ></v-img>
+                </v-col>
+                <v-col class="text-center px-4 px-sm-6">
+                  <h3
+                    class="display-1 secondary--text my-6"
+                    style="line-height: 1em;"
+                  >
+                    {{ post.node.title }}
+                  </h3>
+                  <p class="body-2 text-left secondary--text">
+                    {{ post.node.date_ }}
+                  </p>
+                  <p class="body-1 text-left secondary--text">
+                    <span
+                      v-html="post.node.preview"
+                      style="line-height: 1.7em;"
+                    >
+                    </span>
+                    <span class="font-weight-bold">&nbsp; Read More</span>
+                  </p>
+                </v-col>
+              </v-col>
+            </v-row>
+          </v-card>
+        </v-col>
+      </v-row>
+    </v-container>
+  </Layout>
+</template>
+
+<page-query>
+query {
+  allPost {
+    totalCount
+    edges {
+      node {
+        id
+        title
+        path
+        date_
+        content
+        preview
+        featuredImage
+      }
+    }
+  }
+}
+</page-query>
+
+<script>
+export default {
+  metaInfo: {
+    title: 'Blog',
+  },
+  computed: {
+    posts() {
+      return this.$page.allPost.edges;
+    },
+  },
+  methods: {
+    onClick(post) {
+      this.$router.push({ path: post.node.path });
+    },
+  },
+};
+</script>
