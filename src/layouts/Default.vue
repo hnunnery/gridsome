@@ -1,7 +1,7 @@
 <template>
   <v-app style="overflow: hidden;">
     <v-app-bar app absolute elevation="0" class="app transparent">
-      <v-btn icon @click="drawer = !drawer" class="hidden-lg-and-up mr-0">
+      <v-btn icon @click="drawer = !drawer" class="hidden-md-and-up mr-0">
         <v-icon>fas fa-bars</v-icon>
       </v-btn>
 
