@@ -12,10 +12,6 @@ export default function(Vue, { appOptions, head }) {
     },
     {
       rel: 'stylesheet',
-      href: 'https://use.fontawesome.com/releases/v5.10.2/css/all.css',
-    },
-    {
-      rel: 'stylesheet',
       href: 'https://fonts.googleapis.com/css?family=Montserrat',
     },
     {
@@ -39,9 +35,6 @@ export default function(Vue, { appOptions, head }) {
   });
 
   const opts = {
-    icons: {
-      iconfont: 'fa',
-    },
     theme: {
       themes: {
         light: {

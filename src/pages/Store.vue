@@ -79,31 +79,15 @@ export default {
   metaInfo: {
     title: 'Store',
   },
-  data() {
-    return {
-      coinFlip: true,
-    };
-  },
   computed: {
     products() {
       return this.$page.allProducts.edges;
-    },
-  },
-  methods: {
-    flipCoin() {
-      this.coinFlip = !this.coinFlip;
     },
   },
 };
 </script>
 
 <style lang="scss" scoped>
-@media screen and (max-width: 420px) {
-  .v-card {
-    margin-left: 0px !important;
-    margin-right: 0px !important;
-  }
-}
 @media screen and (min-width: 960px) {
   .description {
     height: 100px;

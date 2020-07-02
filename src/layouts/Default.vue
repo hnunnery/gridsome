@@ -2,7 +2,7 @@
   <v-app style="overflow: hidden;">
     <v-app-bar app absolute elevation="0" class="app transparent">
       <v-btn icon @click="drawer = !drawer" class="hidden-md-and-up mr-0">
-        <v-icon>fas fa-bars</v-icon>
+        <v-icon large>menu</v-icon>
       </v-btn>
 
       <v-navigation-drawer
@@ -86,7 +86,7 @@
               <span class="nav-text secondary--text py-2">Contact</span>
             </v-btn>
           </v-toolbar-items>
-          <v-btn icon class="snipcart-checkout no-active">
+          <v-btn icon class="snipcart-checkout no-active hidden-md-only">
             <v-icon color="highlight">fas fa-shopping-cart</v-icon>
           </v-btn>
         </v-row>
@@ -150,28 +150,13 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.navbar-icons {
-  padding-top: 13px;
-}
-.nav-font-size {
-  font-size: 1.5em;
-}
 .nav-text {
   font-size: 1.6em;
   font-family: 'Montserrat', sans-serif !important;
   text-transform: capitalize;
   margin: 0 10px;
 }
-// NAVBAR - raising fontawesome5 icons
-.fa,
-.fab,
-.fal,
-.far,
-.fas {
-  @media only screen and (max-width: 958px) {
-    vertical-align: text-top;
-  }
-}
+
 /* STYLE NAVIGATION DRAWER */
 .v-list {
   padding: 50px 0 0 !important;
@@ -205,9 +190,6 @@ a {
   text-decoration: none;
 }
 
-.subtitle-1 {
-  font-size: 1.3em !important;
-}
 .mont {
   font-family: 'Montserrat', sans-serif;
 }

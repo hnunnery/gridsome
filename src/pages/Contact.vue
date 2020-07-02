@@ -74,9 +74,7 @@
                 <a href="mailto:test@gmail.com">
                   <v-row justify="center" class="pb-6">
                     <v-col cols="3" class="text-center">
-                      <v-icon size="45px" class="highlight--text"
-                        >fas fa-envelope</v-icon
-                      >
+                      <v-icon size="45px" class="highlight--text">mail</v-icon>
                     </v-col>
                     <v-col cols="9">
                       <h4 class="secondary--text display-1">Send an email</h4>
@@ -90,7 +88,7 @@
                   <v-row justify="center" class="pb-6">
                     <v-col cols="3" class="text-center">
                       <v-icon size="45px" class="highlight--text"
-                        >fas fa-mobile-alt</v-icon
+                        >smartphone</v-icon
                       >
                     </v-col>
                     <v-col cols="9">
@@ -103,9 +101,7 @@
               <div class="text-xs-left">
                 <v-row justify="center" class="pb-6">
                   <v-col cols="3" class="text-center">
-                    <v-icon size="45px" class="highlight--text"
-                      >fas fa-map-marked-alt</v-icon
-                    >
+                    <v-icon size="45px" class="highlight--text">place</v-icon>
                   </v-col>
                   <v-col cols="9">
                     <h4 class="secondary--text display-1">

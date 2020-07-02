@@ -54,37 +54,3 @@ export default {
   },
 };
 </script>
-
-<style lang="scss" scoped>
-@media screen and (max-width: 1263px) {
-  h3 {
-    margin-top: 30px;
-  }
-}
-@media screen and (max-width: 500px) {
-  .text-container {
-    padding: 0px 7px !important;
-  }
-  .v-card {
-    padding: 10px 0px !important;
-    margin-left: 0px !important;
-    margin-right: 0px !important;
-  }
-  .description {
-    padding-left: 5px !important;
-    padding-right: 5px !important;
-  }
-  .mobile-top {
-    padding: 20px 0 0 !important;
-  }
-}
-.description {
-  line-height: 1.7em !important;
-}
-@media screen and (min-width: 1400px) {
-  .description {
-    line-height: 1.9em !important;
-    font-size: 1.5em !important;
-  }
-}
-</style>
