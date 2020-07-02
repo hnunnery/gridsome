@@ -73,7 +73,7 @@ export default {
         console.log(post.node.date);
       });
       const x = this.$page.allPost.edges.sort((a, b) =>
-        a.node.date < b.node.date ? -1 : 1
+        a.node.date > b.node.date ? -1 : 1
       );
       return x;
     },
