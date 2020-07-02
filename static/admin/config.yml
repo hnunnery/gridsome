@@ -20,11 +20,13 @@ collections:
           hint: '1200px x 627px',
         }
       - {
-          label: 'date',
-          name: date",
+          label: 'Date',
+          name: 'date',
           widget: 'datetime',
           default: '',
-          format: 'MMM DD, YYYY',
+          dateFormat: 'MMM DD, YYYY', # e.g. 24.12.2021
+          timeFormat: 'HH:mm', # e.g. 21:07
+          pickerUtc: true,
         }
       - { label: 'Body', name: 'body', widget: 'markdown' }
       - {
