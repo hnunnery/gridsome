@@ -15,9 +15,9 @@
               <v-col>
                 <v-img
                   :src="post.node.featuredImage"
-                  alt="blog image"
-                  lazy-src
+                  :alt="post.node.alt"
                   class="mx-auto mb-6"
+                  lazy-src
                 ></v-img>
                 <h3
                   class="display-1 secondary--text text-center mb-6"
@@ -55,6 +55,7 @@ query {
         content
         preview
         featuredImage
+        alt
       }
     }
   }

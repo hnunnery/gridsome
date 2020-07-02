@@ -5,7 +5,7 @@
         <v-col cols="12" md="10" lg="8" xl="6" class="pa-0">
           <v-img
             :src="$page.post.featuredImage"
-            alt="post image"
+            :alt="$page.post.alt"
             lazy-src
           ></v-img>
           <h1
@@ -33,6 +33,7 @@ query Post ($path: String!) {
     title
     content
     featuredImage
+    alt
     date
     preview
     path
@@ -69,7 +70,9 @@ export default {
         {
           key: 'og:url',
           property: 'og:url',
-          content: `https://ec.codehunter.io${this.$page.post.path}`,
+          content: `https://gridsometemplate.netlify.app${
+            this.$page.post.path
+          }`,
         },
         {
           key: 'og:type',

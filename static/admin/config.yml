@@ -20,6 +20,12 @@ collections:
           hint: '1200px x 627px',
         }
       - {
+          label: 'Image Text',
+          name: 'alt',
+          widget: 'string',
+          hint: 'a word or two describing the image (for the blind)',
+        }
+      - {
           label: 'Date',
           name: 'date',
           widget: 'datetime',

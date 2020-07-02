@@ -1,6 +1,7 @@
 ---
 title: Reviewing This Cutting Edge Quadcopter Drone
 featuredImage: /uploads/drone.png
+alt: drone
 date: Jul 02, 2020
 preview: I'll give you my honest review on the brand new Mavic Pro quadcopter
   available as of last week in the United States. It's worth the read; you might

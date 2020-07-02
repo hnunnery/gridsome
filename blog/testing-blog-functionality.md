@@ -1,6 +1,7 @@
 ---
 title: Testing Blog Functionality
 featuredImage: /uploads/view.png
+alt: scenery
 date: Apr 07, 2020
 preview: Rerum unde similique accusamus eius ipsum inventore. Ex provident qui
   sapiente! Atque minima debitis soluta consectetur, fuga facilis tempore esse?
