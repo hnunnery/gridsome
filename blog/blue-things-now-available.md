@@ -2,6 +2,7 @@
 title: Blue Things Now Available!
 featuredImage: /uploads/office.png
 date": May 03, 2019
+date: 2020-06-01T20:07:50.902Z
 preview: In 2010, the United Kingdom had the highest per capita e-commerce
   spending in the world. As of 2013, the Czech Republic was the European country
   where e-commerce delivers the biggest contribution to the enterprises´ total
