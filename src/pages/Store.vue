@@ -8,7 +8,7 @@
           md="6"
           lg="4"
           xl="3"
-          class="text-center pa-0"
+          class="text-center"
           v-for="product in products"
           :key="product.node.id"
         >

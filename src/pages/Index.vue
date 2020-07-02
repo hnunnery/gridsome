@@ -7,7 +7,7 @@
         v-for="section in sections"
         :key="section.node.id"
       >
-        <v-col cols="12" lg="10" xl="8" class="px-0 mb-12">
+        <v-col cols="12" lg="10" xl="8" class="mb-12">
           <h1
             class="custom-header mont secondary--text text-center mt-md-5 mb-5 mb-md-12"
             style="line-height: 1em;"

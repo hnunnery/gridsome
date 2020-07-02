@@ -57,7 +57,7 @@
         </v-list>
       </v-navigation-drawer>
 
-      <v-container>
+      <v-container class="py-0">
         <v-row class="align-center">
           <v-col class="text-center text-md-left">
             <g-link to="/">
@@ -96,7 +96,7 @@
     <!-- Sizes your content based upon application components -->
     <v-main>
       <!-- Provides the application the proper gutter -->
-      <v-container fluid>
+      <v-container fluid class="pa-0">
         <!-- If using vue-router -->
         <slot></slot>
       </v-container>

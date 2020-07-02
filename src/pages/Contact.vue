@@ -1,23 +1,23 @@
 <template>
   <Layout>
-    <v-container fluid px-0>
-      <v-row justify="space-around" mt-12>
+    <v-container>
+      <v-row justify="space-around">
         <v-col cols="12" lg="10" xl="8">
           <h1
-            class="custom-header mont grey--text text--darken-3 text-center mb-1 mb-md-10"
+            class="custom-header mont secondary--text text-center mb-1 mb-md-10"
           >
             Contact Us
           </h1>
 
           <v-row justify="space-around" align="center">
-            <v-col cols="12" sm="10" md="6">
+            <v-col cols="12" sm="10" md="6" class="px-0">
               <v-card class="mt-0 mb-12 pa-0 white" elevation="0">
                 <form
                   name="contact"
                   method="POST"
                   data-netlify="true"
                   data-netlify-honeypot="bot-field"
-                  class="px-6 py-4"
+                  class="pa-4"
                 >
                   <!-- NETLIFY FORM NAME -->
                   <input type="hidden" name="form-name" value="contact" />

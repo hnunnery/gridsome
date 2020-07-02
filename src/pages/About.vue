@@ -2,7 +2,7 @@
   <Layout>
     <v-container>
       <v-row class="justify-center">
-        <v-col cols="12" lg="10" xl="8" class="pa-0">
+        <v-col cols="12" lg="10" xl="8" class="mb-12">
           <h1
             class="custom-header mont secondary--text text-center mb-6 mb-md-10"
           >
