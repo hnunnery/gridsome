@@ -87,7 +87,7 @@
             </v-btn>
           </v-toolbar-items>
           <v-btn icon class="snipcart-checkout no-active hidden-md-only">
-            <v-icon color="highlight">fas fa-shopping-cart</v-icon>
+            <v-icon size="30" color="highlight">shopping_cart</v-icon>
           </v-btn>
         </v-row>
       </v-container>
