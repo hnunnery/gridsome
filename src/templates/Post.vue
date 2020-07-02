@@ -15,7 +15,7 @@
             {{ $page.post.title }}
           </h1>
           <p class="subheading text-xs-left mx-3 mb-6 mb-sm-12">
-            {{ $page.post.date_ }}
+            {{ $page.post.date }}
           </p>
           <div
             v-html="$page.post.content"
@@ -33,7 +33,7 @@ query Post ($path: String!) {
     title
     content
     featuredImage
-    date_
+    date
     preview
     path
   }
