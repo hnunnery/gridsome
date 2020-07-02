@@ -52,7 +52,7 @@ query {
         id
         title
         path
-        date_
+        date
         content
         preview
         featuredImage
