@@ -25,7 +25,7 @@ collections:
           widget: 'datetime',
           default: '',
           dateFormat: 'DD.MM.YYYY', # e.g. 24.12.2021
-          timeFormat: 'HH:mm', # e.g. 21:07
+          timeFormat: false,
           pickerUtc: true,
         }
       - { label: 'Body', name: 'body', widget: 'markdown' }
