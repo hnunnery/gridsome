@@ -1,12 +1,12 @@
 ---
 title: Deciding Which Jetski To Buy This Weekend
 featuredImage: /uploads/jetski.png
-date": Jun 30, 2020
 date: 2020-07-01T20:07:21.414Z
 preview: Rerum unde similique accusamus eius ipsum inventore. Ex provident qui
   sapiente! Atque minima debitis soluta consectetur, fuga facilis tempore esse?
   Et ipsa dolores deleniti placeat voluptates. Architecto nihil dolorem
 ---
+
 ## [](https://authorsite.netlify.app/blog/blue-things-now-available/#recent-research)**Recent Research**
 
 Recent research clearly indicates that electronic commerce, commonly referred to as e-commerce, presently shapes the manner in which people shop for products. The GCC countries have a rapidly growing market and are characterized by a population that becomes wealthier (Yuldashev). As such, retailers have launched Arabic-language websites as a means to target this population. Secondly, there are predictions of increased mobile purchases and an expanding internet audience (Yuldashev). The growth and development of the two aspects make the GCC countries to become larger players in the electronic commerce market with time progress. Specifically, research shows that e-commerce market is expected to grow to over \$20 billion by the year 2020 among these GCC countries (Yuldashev). The e-commerce market has also gained much popularity among the western countries, and in particular Europe and the U.S. These countries have been highly characterized with consumer-packaged-goods (CPG) (Geisler, 34). However, trends show that there are future signs of a reverse. Similar to the GCC countries, there has been increased purchase of goods and services in online channels rather than offline channels.

@@ -69,7 +69,13 @@ export default {
   },
   computed: {
     posts() {
-      return this.$page.allPost.edges;
+      this.$page.allPost.edges.forEach((post) => {
+        console.log(post.node.date);
+      });
+      const x = this.$page.allPost.edges.sort((a, b) =>
+        a.node.date < b.node.date ? -1 : 1
+      );
+      return x;
     },
   },
   methods: {
