@@ -14,7 +14,6 @@
             <v-row class="justify-space-around align-center">
               <v-col>
                 <v-img
-                  v-if="post.node.featuredImage != null"
                   :src="post.node.featuredImage"
                   alt="blog image"
                   lazy-src
@@ -27,7 +26,7 @@
                   {{ post.node.title }}
                 </h3>
                 <p class="body-2 text-left secondary--text">
-                  {{ post.node.date_ }}
+                  {{ post.node.date }}
                 </p>
                 <p class="body-1 text-left secondary--text">
                   <span v-html="post.node.preview" style="line-height: 1.7em;">
@@ -69,11 +68,8 @@ export default {
   },
   computed: {
     posts() {
-      this.$page.allPost.edges.forEach((post) => {
-        console.log(post.node.date);
-      });
       const x = this.$page.allPost.edges.sort((a, b) =>
-        a.node.date > b.node.date ? -1 : 1
+        Date.parse(a.node.date) > Date.parse(b.node.date) ? -1 : 1
       );
       return x;
     },
