@@ -1,7 +1,7 @@
 ---
 title: Deciding Which Jetski To Buy This Weekend
 featuredImage: /uploads/jetski.png
-date: 2020-07-01T20:07:21.414Z
+date: Jun 01, 2020
 preview: Rerum unde similique accusamus eius ipsum inventore. Ex provident qui
   sapiente! Atque minima debitis soluta consectetur, fuga facilis tempore esse?
   Et ipsa dolores deleniti placeat voluptates. Architecto nihil dolorem
