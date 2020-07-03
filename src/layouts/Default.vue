@@ -178,14 +178,6 @@ export default {
 </style>
 
 <style lang="scss">
-@import url('https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/3.0.1/github-markdown.min.css');
-.markdown-body {
-  box-sizing: border-box;
-  min-width: 200px;
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
 a {
   text-decoration: none;
 }

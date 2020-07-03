@@ -96,3 +96,7 @@ export default {
   }
 }
 </style>
+
+<style scoped>
+@import url('https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css');
+</style>
